@@ -18,29 +18,35 @@
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
+        <div id="wrapper">
+          <div id="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
             <a class="extra" href="/blog/">blog</a>
             <a class="extra" href="/projects/">projects</a>
             <a class="extra" href="/about/">about</a>
           </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="mailto:caryoscelus@gmx.com">caryoscelus@gmx.com</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/caryoscelus">github.com/caryoscelus</a><br />
-              </p>
-            </div>
+          <div id="main">
+            {{ content }}
           </div>
+        </div>
+
+        <div id="footer">
+            <div class="contacts">
+                <div class="contact">
+                    <a href="mailto:caryoscelus@gmx.com">caryoscelus@gmx.com</a>
+                </div>
+                <div class="contact">
+                    <a href="https://github.com/caryoscelus">github.com/caryoscelus</a>
+                </div>
+                <div class="contact">
+                    <br/>
+                </div>
+            </div>
+            <div class="site_notes">
+                This site is powered by <a href="http://jekyllrb.com">Jekyll</a> and hosted on <a href="https://pages.github.com">github</a>. See source repository <a href="https://github.com/caryoscelus/caryoscelus.github.io">here</a>.<br/>
+                Copyleft (ↄ) 2014 caryoscelus
+            </div>
         </div>
 
     </body>
