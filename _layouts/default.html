@@ -29,7 +29,11 @@
           <div id="main">
             {{ content }}
             
-            <iframe src="http://caryoscelus.herokuapp.com/"></iframe>
+            <script language="javascript" type="text/javascript">
+            //<--
+            document.write('<iframe src="http://caryoscelus.herokuapp.com/iframe"'+window.location.pathname+'></iframe>')
+            //-->
+            </script>
           </div>
           
         </div>
