@@ -6,6 +6,7 @@
 
 iframe {
     width: 100%;
+    border: none;
 }
 
 html, body { height: 100%; }
