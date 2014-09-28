@@ -6,11 +6,17 @@ title: "caryoscelus home"
 Home
 ----
 
-{% include stub.html %}
+Hello, web wanderer. It's really strange to see someone coming here.
 
-Hello, reader.
+Anyway, i am *caryoscelus*. I do various "creative" stuff. Mostly famous for WIP
+visual novel [The Day After][projects]. More stuff to come soon - i'm working on
+several projects and some of them should be finished this year. Meanwhile, you
+can check [blog][blog], even though it's a bit empty as well.
 
-I am *caryoscelus* and this is supposed to be my home page. As you may noticed,
-main page is not quite ready, so try checking [blog][blog] meanwhile.
+If you want to contact me for something important, better not try to do that via
+comment form bellow because it has no notifications and may be not reliable.
+Just use email. It's [caryoscelus@gmx.com][mail].
 
-[blog]: /blog/
+[blog]:         /blog/
+[projects]:     /projects/
+[mail]:         mailto:caryoscelus@gmx.com
