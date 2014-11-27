@@ -14,6 +14,8 @@
         
         <link rel="stylesheet" href="/css/tablet.css" type="text/css" media="screen and (min-width:651px) and (max-width: 1024px), screen and (min-device-width: 768px) and (max-device-width: 1024px)" />
         <link rel="stylesheet" href="/css/mobile.css" type="text/css" media="handheld, screen and (max-width: 650px), screen and (max-device-width: 480px)" />
+        <script type="text/javascript" src="/config.js"></script>
+        <script type="text/javascript" src="/js/index.js"></script>
 
     </head>
     <body>
@@ -29,11 +31,8 @@
           <div id="main">
             {{ content }}
             
-            <script language="javascript" type="text/javascript">
-            //<--
-            document.write('<iframe src="http://caryoscelus.herokuapp.com/iframe/caryoscelus/root'+window.location.pathname+'"></iframe>')
-            //-->
-            </script>
+            <h3>Comments</h3>
+            <div id="comments"><h4>Comments require JS to work</h4></div>
           </div>
           
         </div>
