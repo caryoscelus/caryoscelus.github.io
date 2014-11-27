@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>caryoscelus</title>
-  <link href="http://localhost:4000/"/>
+  <link href="http://caryoscelus.github.io/"/>
   <link type="application/atom+xml" rel="self" href="https://caryoscelus.github.io/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>caryoscelus</id>
