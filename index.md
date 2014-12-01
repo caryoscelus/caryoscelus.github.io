@@ -13,9 +13,9 @@ paricipating in Ludum Dare. More stuff to come soon - i'm working on several
 projects and some of them should be finished this year. Meanwhile, you
 can check [blog][blog], even though it's a bit empty as well.
 
-If you want to contact me for something important, better not try to do that via
-comment form bellow because it has no notifications and may be not reliable.
-Just use email. It's [caryoscelus@gmx.com][mail].
+If you want to contact me for something really important, better not try to do
+that via comment form bellow because it has no notifications. Just use email.
+It's [caryoscelus@gmx.com][mail].
 
 [blog]:         /blog/
 [projects]:     /projects/
