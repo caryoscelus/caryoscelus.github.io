@@ -6,7 +6,8 @@ title: "caryoscelus home"
 Home
 ----
 
-Hello, web wanderer. It's really strange to see someone coming here.
+Hello, web wanderer. It's really strange to see someone coming here. Or probably
+not. You are that person from LD, aren't you?..
 
 Anyway, i am *caryoscelus*. I do various "creative" stuff. Mostly famous for
 paricipating in Ludum Dare. More stuff to come soon - i'm working on several
