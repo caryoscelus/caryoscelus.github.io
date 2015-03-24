@@ -6,15 +6,14 @@ title: "caryoscelus home"
 Home
 ----
 
-Hello, web wanderer. It's really strange to see someone coming here. Or probably
-not. You are that person from LD, aren't you?..
+Hello, web wanderer.
 
-Anyway, i am *caryoscelus*. I do various "creative" stuff. Mostly famous for
-paricipating in Ludum Dare. More stuff to come soon - i'm working on several
-projects and some of them should be finished this year. Meanwhile, you
-can check [blog][blog], even though it's a bit empty as well.
+I am *caryoscelus*. I write stuff. Code, fiction, music. [Too bad verb "write"
+does not apply to art as well (as it sometimes does in russian)]. I don't have
+anything more to say here and now, so you might want to browse other pages, such
+as [blog][blog] or [projects][projects].
 
-If you want to contact me for something really important, better not try to do
+If you want to contact me for something *really important*, better not try to do
 that via comment form bellow because it has no notifications. Just use email.
 It's [caryoscelus@gmx.com][mail].
 
