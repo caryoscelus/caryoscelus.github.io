@@ -15,7 +15,8 @@ as [blog][blog] or [projects][projects].
 
 If you want to contact me for something *really important*, better not try to do
 that via comment form bellow because it has no notifications. Just use email.
-It's [caryoscelus@gmx.com][mail].
+It's [caryoscelus@gmx.com][mail]. Otherwise, you still have a chance to be the
+first to leave a meaningful comment here ^_^
 
 [blog]:         /blog/
 [projects]:     /projects/
