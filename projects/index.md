@@ -7,7 +7,7 @@ title: "projects &lt; caryoscelus"
 
 ## Visual Novels
 
-* ???? (most active development - nanoreno 2015 project)
+* lost sheep (most active development - used to be nanoreno 2015 project)
 * [Playground: the Game of Scissors][playground] (active development)
 * [The Day After][day-after] (not active, but not cancelled either; perhaps it will be
 rewritten nearly from scratch when i finally get back to it)
@@ -22,7 +22,11 @@ check [Transient Team LD page](http://ludumdare.com/compo/author/kibertoad/) as
 well since i participated in many of those projects.
 
 ## Music
-To be updated soon.
+My first album: [meanwhile][meanwhile]
+
+If you want any sources or better quality tracks, feel free to ask. I may
+publish them at some point myself, but at the moment i'm not motivated enough to
+bother.
 
 ## Other
 See other coding related projects on my [github page][github].
@@ -31,3 +35,4 @@ See other coding related projects on my [github page][github].
 [chess]:        https://github.com/caryoscelus/chess-chatter
 [github]:       https://github.com/caryoscelus/
 [playground]:   /projects/playground.html
+[meanwhile]:    https://www.jamendo.com/en/list/a145855/meanwhile
