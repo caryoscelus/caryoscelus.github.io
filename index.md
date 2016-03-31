@@ -6,12 +6,16 @@ title: "caryoscelus home"
 Home
 ----
 
-Hello, web wanderer.
+Hello, wanderer!
 
-I am *caryoscelus*. I write stuff. Code, fiction, music. [Too bad verb "write"
-does not apply to art as well (as it sometimes does in russian)]. I don't have
-anything more to say here and now, so you might want to browse other pages, such
-as [blog][blog] or [projects][projects].
+If you're first-time visitor, let me introduce myself: i am *caryoscelus*,
+<del>an artificial construct of someone's mind somewhere on the other end of the
+net</del> well, never mind that, lets settle for *just* caryoscelus.
+
+And now, without further ado, welcome to this (un)humble lair of mine! I would
+want to say "make yourself comfortable and look around", but unfortunately
+there's not that much to look at. You can check out [blog][blog] or
+[projects][projects], however.
 
 If you want to contact me for something *really important*, better not try to do
 that via comment form bellow because it has no notifications. Just use email.
