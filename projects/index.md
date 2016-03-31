@@ -5,10 +5,14 @@ title: "projects &lt; caryoscelus"
 
 # Projects
 
+## In 'production'
+
+* ! [scandia letters][scandia] ! ongoing vn/kn series
+
 ## More or less active
 
 * [hired guns][hiredguns] mix of rpg and vn
-* [lost sheep][lostsheep] visual novel
+* [lost sheep][lostsheep] interactive animated story
 * [Playground: the Game of Scissors][playground]
 * couple of music albums
 * ???
@@ -33,3 +37,4 @@ See other coding related projects on my [github page][github].
 [playground]:   /projects/playground.html
 [hiredguns]:    /projects/hiredguns.html
 [lostsheep]:    /projects/lostsheep.html
+[scandia]:      /projects/scandialetters.html
