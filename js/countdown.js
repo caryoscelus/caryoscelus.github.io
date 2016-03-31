@@ -11,6 +11,12 @@ function countdown(d) {
     }
     function update_target() {
         var diff1, diff2;
+        if (diff <= 0) {
+            target.innerHTML = 'NEW: scandia letters';
+            console.log(target.parentNode.attributes);
+            target.parentNode.setAttribute('href', "/projects/scandialetters.html");
+            return;
+        }
         dd = parseInt(diff / (60*60*24)),
         diff1 = diff % (60*60*24),
         dh = parseInt(diff1 / (60*60)),
