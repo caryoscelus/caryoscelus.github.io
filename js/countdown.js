@@ -23,7 +23,8 @@ function countdown(d) {
         diff2 = diff1 % (60*60),
         dm = parseInt(diff2 / 60),
         ds = parseInt(diff2 % 60);
-        target.innerHTML = dd+'-'+a0(dh)+':'+a0(dm)+':'+a0(ds);
+        day_s = dd ? dd+'-' : '';
+        target.innerHTML = day_s+a0(dh)+':'+a0(dm)+':'+a0(ds);
     }
     function a0(n) {
         if (n < 10) return '0'+n;
