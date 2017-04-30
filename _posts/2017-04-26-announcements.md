@@ -14,5 +14,5 @@ instructions there. Will do that soon.
 using it, but expect more ZeroNet news from me anyway.
 
 [ld38]: https://ldjam.com/
-[game]: https://ldjam.com/events/ludum-dare/38/$22098
+[game]: https://ldjam.com/events/ludum-dare/38/power-department
 [rainynite]: https://notabug.org/caryoscelus/rainynite-studio
