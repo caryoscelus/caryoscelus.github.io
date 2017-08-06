@@ -19,8 +19,8 @@ there's not that much to look at. You can check out [blog][blog] or
 
 If you want to contact me for something *really important*, better not try to do
 that via comment form bellow because it has no notifications. Just use email.
-It's caryoscelus ^_^ gmx.com | openmailbox.org. Otherwise, you still have a
-chance to be the first to leave a meaningful comment here ^_^
+It's caryoscelus ^_^ gmx.com. Otherwise, you still have a chance to be the first
+to leave a meaningful comment here ^_^
 
 [blog]:         /blog/
 [projects]:     /projects/
