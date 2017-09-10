@@ -225,12 +225,11 @@ div.left_float {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #474747;
+  padding-left: 1em;
 }
 
 #footer .contact {
-  overflow: hidden;
-  width: 33%;
-  float: left;
+  text-align: center;
 }
 
 .contact a {

@@ -37,4 +37,6 @@ it.
 
 That'll be all for now. Just keep reading blog.
 
+And, of course, feel free to [contact me](/contacts/).
+
 [lojban]:   http://lojban.org
