@@ -5,23 +5,30 @@ title: "projects &lt; caryoscelus"
 
 # Projects
 
+This page is rarely updated so might not be accurate. You've been warned.
+
 ## In 'production'
 
-* ! [scandia letters][scandia] ! ongoing vn/kn series
+* [RainyNite](https://notabug.org/caryoscelus/rainynite-studio) 2d vector animation program
+* ???
+* [eucalyptus](/eucalyptus-ff) flash fiction collection
+* ???
+* `caryoscelus 2.0`
 
 ## More or less active
 
-* [hired guns][hiredguns] mix of rpg and vn
-* [lost sheep][lostsheep] interactive animated story
-* [Playground: the Game of Scissors][playground]
 * couple of music albums
+* heavy bright sun
 * ???
 
-## Archive
+## Archive / zombie / limbo projects
 
-* [The Day After][day-after] (perhaps will be
-rewritten from scratch if/when i finally get back to it)
-* [Chess Chatter][chess] (not active due to team controversy)
+* [scandia letters][scandia] vn/kn series
+* [hired guns][hiredguns] mix of rpg and vn
+* [lost sheep][lostsheep] interactive animated story
+* [Playground: the Game of Scissors][playground] yet another vn
+* [The Day After][day-after] older vn
+* [Chess Chatter][chess] an old vn
 
 You may also check my [Ludum Dare page](http://ludumdare.com/compo/author/caryoscelus/).
 Wait, that in fact mostly list those VNs i already mentioned. Well, you can
