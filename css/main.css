@@ -17,6 +17,11 @@ html, body { height: 100%; }
   padding: 0;
 }
 
+ul {
+  padding-left: 2em;
+  list-style-type: circle;
+}
+
 body {
   background-color: #282828;
   color: #B0B0B0;
@@ -98,6 +103,7 @@ a:hover {
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
+  padding-left: 0;
 }
 
 .posts li {
