@@ -36,11 +36,13 @@ check [Transient Team LD page](http://ludumdare.com/compo/author/kibertoad/) as
 well since i participated in many of those projects.
 
 ## Other
-See other coding related projects on my [github page][github].
+See other coding related projects on my [notabug][notabug] and [github][github]
+pages.
 
 [day-after]:    https://github.com/caryoscelus/ld29
 [chess]:        https://github.com/caryoscelus/chess-chatter
 [github]:       https://github.com/caryoscelus/
+[notabug]:      https://notabug.org/caryoscelus/
 [playground]:   /projects/playground.html
 [hiredguns]:    /projects/hiredguns.html
 [lostsheep]:    /projects/lostsheep.html
