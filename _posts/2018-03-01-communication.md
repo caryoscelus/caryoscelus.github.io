@@ -8,6 +8,8 @@ categories: misc
 While i won't claim that to be absolute truth, i think many might find it
 interesting to consider.
 
+<cut/>
+
 The reasoning is as follows:
 
 1. you can only feel lonely in comparison to being (or conceptualizing) unlonely
