@@ -7,6 +7,8 @@ categories: misc
 
 A few book titles:
 
+<cut/>
+
 - viral ideology
 - self-destructing logic
 - cult of strength
