@@ -5,20 +5,20 @@ title: "projects &lt; caryoscelus"
 
 # Projects
 
-This page is rarely updated so might not be accurate. You've been warned.
+This page is possibly rarely updated so might not be accurate. You've been
+warned.
 
 ## In 'production'
 
-* [RainyNite](https://notabug.org/caryoscelus/rainynite-studio) 2d vector animation program
 * ???
 * [eucalyptus](/eucalyptus-ff) flash fiction collection
 * ???
-* `caryoscelus 2.0`
+* [RainyNite](https://notabug.org/caryoscelus/rainynite-studio) 2d vector animation program
+* heavy bright sun
 
 ## More or less active
 
 * couple of music albums
-* heavy bright sun
 * ???
 
 ## Archive / zombie / limbo projects
