@@ -14,7 +14,7 @@ warned.
 * [eucalyptus](/eucalyptus-ff) flash fiction collection
 * ???
 * [RainyNite](https://notabug.org/caryoscelus/rainynite-studio) 2d vector animation program
-* heavy bright sun
+* heavy bright sun (see [txt](/txt))
 
 ## More or less active
 
