@@ -9,16 +9,16 @@ The (in)famous concept of philosophical zombies does not make a valid argument
 for refuting functionalist (physicalist, materialist) view of consciousness. As
 an argument, it is nothing more but an interestingly worded tautology: those who
 accept argument as *valid* have to accept its consequences, but they also
-already believe them. Those who this argument is supposed to convince will
+already believe them. Those whom this argument is supposed to convince will
 simply refuse its premise validity. Yet the concept of philosophical zombies
 seems to be useful beyond its metaphorical value.
 
 <cut/>
 
 The reason for that is that whether we want it or not, entities very similar to
-philosophical exist among us. Of course there is still a way to deny them and
-perhaps that question warrants separate post, but for the sake of this one i'll
-assume the intuitive point of view that groups of people do not form
+philosophical zombies do exist among us. Of course, there is still a way to deny
+them and perhaps that question warrants separate post, but for the sake of this
+one i'll assume the intuitive point of view that groups of people do not form
 consciousnesses.
 
 Given that assumption, we can finally name the philosophical zombies in
@@ -36,13 +36,13 @@ anthropomorphize them.
 Perhaps, they are not as sophisticated in entity-level behaviour as human mind;
 they are unbelievably slow, but then they also exist (in our understanding or
 imagination; but that's the only place save for platonic realm of ideas where
-they have place to exist) for quite long time.
+they have place to exist) for quite a long time.
 
 From functionalist point of view, there's zero sensible arguments to deny them
-at least capability for consciousness if not the thing itself. If we do, for one
-reason or another, they become philosophical zombies; or perhaps, given their
-nature of compound entities, it would be better to say "philosophical
-frankensteins".
+at least capability for consciousness, if not the thing itself. If we do deny it
+however, for one reason or another, they become philosophical zombies; or perhaps,
+given their nature of compound entities, it would be better to say
+"philosophical frankensteins".
 
 And although the purely consciousness philosophy consequences of that
 proposition are interesting in themselves, i would like to point out more
