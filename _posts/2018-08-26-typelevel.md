@@ -98,3 +98,23 @@ smart compiler can opt to use it
 Hopefully, using old good Peano arithmetic wasn't too boring of an example. The
 central idea here is much more general though: **if you know what you want to get,
 you can describe it in a type**.
+
+P.S. Provided with some trivial type inference, we can actually write plus as
+
+```
+plus'' :
+  (x : Nat, y : Nat) ->
+  ( z : Nat
+  , ( x = Z
+    , z = y
+    )
+  | ( S x' = x
+    , z' = plus'' x' y
+    , z = S z'
+    )
+  )
+```
+
+Which looks almost like a regular function definition with pattern matching. But
+this shouldn't deceive you: all this equalities are types (propositions), not
+assignment operators.
