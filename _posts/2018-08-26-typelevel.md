@@ -116,5 +116,5 @@ plus'' :
 ```
 
 Which looks almost like a regular function definition with pattern matching. But
-this shouldn't deceive you: all this equalities are types (propositions), not
+this shouldn't deceive you: all these equalities are types (propositions), not
 assignment operators.
