@@ -5,13 +5,13 @@ date: 2018-08-29 16:55:00
 categories: programming
 ---
 
-Give natural numbers defined by
+Given natural numbers defined by
 
 ```
 data N = Z | S N
 ```
 
-the typical way of defining addition is assymetrical
+the typical way of defining addition is asymmetrical
 
 ```
 x + Z = x
