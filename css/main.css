@@ -337,3 +337,8 @@ pre code {
 .comment h2 {
   font-size: 80%;
 }
+
+/* The only input/button for now is comment-posting.. */
+input {
+  display: block;
+}
