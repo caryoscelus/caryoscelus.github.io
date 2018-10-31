@@ -26,12 +26,19 @@ track the moment i finish it. So, for now there are two albums available:
 </a>
 </td>
 
+<td>
+<a href="http://127.0.0.1:43110/1FiHm91tcDdjkiGkHZH2xoMc7Qmzrh8sv3/sounds-of-ludum/">
+<img height="200" width="200" src="/images/sounds-of-ludum.jpg"/>
+<br/>sounds of ludum
+</a>
+</td>
+
 </tr>
 </table>
 
 Ah, there's one more thing: all my music is under CC-BY-SA license and you can
-get its source for learning & editing. And of course it's made using only
-free/libre software and samples.
+ask for source (although i can't guarantee i haven't lost it along the way).
+And of course it's made using only free/libre software and samples.
 
-At the moment i was too lazy to actually publish source, so you'll have to ask
-for it.
+Some of the sources are already [available on
+ZeroNet](http://127.0.0.1:43110/1FiHm91tcDdjkiGkHZH2xoMc7Qmzrh8sv3/).
