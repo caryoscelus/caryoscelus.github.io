@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GNUTypewriterStandard';
+    src:
+    url('../../fonts/GNUTypewriterStandard.ttf') format('truetype'),
+    url('https://fontlibrary.org/assets/fonts/gnutypewriter/8a7cb57723df9125503083ed59e7a11c/718af758a8ac10cf79fcc33420aacc3e/GNUTypewriterStandard.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
