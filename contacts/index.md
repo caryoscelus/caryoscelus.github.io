@@ -26,9 +26,11 @@ Registered as caryoscelus at freenode.net and afternet.org.
 zeronet
 -------
 
-`caryoscelus@zeroid.bit`
+primary key: `caryoscelus@zeroid.bit` aka `13oRBYqNeUr6Tvgt4KkAT9FT4XRiKFBjnE`
 
 ZeroMe: [caryoscelus@zeroid.bit](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1White24UrrwQrD86o6Vrc1apgZ1x1o51/13oRBYqNeUr6Tvgt4KkAT9FT4XRiKFBjnE/caryoscelus@zeroid.bit)
+
+ZeroMail: [caryoscelus@zeroid.bit](http://127.0.0.1:43110/1MaiL5gfBM1cyb4a8e3iiL8L5gXmoAJu27/?Inbox&to=caryoscelus)
 
 code hosting sites
 ------------------
