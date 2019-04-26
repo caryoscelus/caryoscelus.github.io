@@ -22,6 +22,12 @@ ul {
   list-style-type: circle;
 }
 
+blockquote {
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left-style: solid;
+}
+
 body {
   background-color: #282828;
   color: #B0B0B0;
