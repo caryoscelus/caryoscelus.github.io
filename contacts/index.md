@@ -18,6 +18,16 @@ xmpp
 
 OTR fingerprint: `FC9F9F22 EB0CA53A 7359C154 258F68AB BF3196F5`
 
+matrix / riot
+-------------
+
+`caryoscelus ^_^ matrix.org`
+
+tox
+---
+
+...wait a sec..
+
 irc
 ---
 
