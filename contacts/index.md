@@ -21,12 +21,12 @@ OTR fingerprint: `FC9F9F22 EB0CA53A 7359C154 258F68AB BF3196F5`
 matrix / riot
 -------------
 
-`caryoscelus ^_^ matrix.org`
+`@ caryoscelus : matrix.org`
 
 tox
 ---
 
-...wait a sec..
+one: 4B22713EB988ADE3AD102C9DCED8C6B08281DA98431F3F225BD88628015351725AC8656F31C0
 
 irc
 ---
