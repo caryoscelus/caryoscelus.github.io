@@ -52,6 +52,8 @@ code hosting sites
 misc
 ----
 
+- [peertube @ tchncs.de](https://tube.tchncs.de/accounts/caryoscelus)
+
 TODO: add more sites
 
 other
