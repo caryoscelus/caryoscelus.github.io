@@ -13,4 +13,7 @@ the places became a bit compilcated. So for now this page is just a
 
 - [clearnet proxy](http://0net.io/1FiHm91tcDdjkiGkHZH2xoMc7Qmzrh8sv3/).
 
+Since some time ago most of my music is also published on
+[bandcamp](https://caryoscelus.bandcamp.com)
+
 Maybe i'll write something more here later. Or maybe not.
