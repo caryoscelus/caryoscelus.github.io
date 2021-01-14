@@ -26,7 +26,9 @@ matrix / riot
 tox
 ---
 
-one: 4B22713EB988ADE3AD102C9DCED8C6B08281DA98431F3F225BD88628015351725AC8656F31C0
+<del>one: 4B22713EB988ADE3AD102C9DCED8C6B08281DA98431F3F225BD88628015351725AC8656F31C0</del>
+
+(not using tox atm)
 
 irc
 ---
@@ -53,6 +55,7 @@ misc
 ----
 
 - [peertube @ tchncs.de](https://tube.tchncs.de/accounts/caryoscelus)
+- [bandcamp](https://caryoscelus.bandcamp.com)
 
 TODO: add more sites
 
