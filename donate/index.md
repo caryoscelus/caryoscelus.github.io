@@ -9,8 +9,7 @@ If you are sure you want to donate, here's the current bitcoin address:
 
 (Please make sure you're using SSL or 0net so that address isn't spoofed.)
 
-Alternatively, i have [liberapay](https://liberapay.com/caryoscelus/) account
-set up as well.
+Alternatively, i have [liberapay][lp] account set up as well.
 
 If you want more info, keep reading.
 
@@ -51,10 +50,12 @@ that.
 
 ## Non-crypto
 
-I'm not a fan of banking, so there's little chance any of non-crypto electronic
-ways of donating will be available. In case you want to donate me useful things
-or cash, you'll have to contact me for arrangements.
+I'm not a fan of banking, but i've set up [liberapay][lp] account for those of
+you who prefer that to crypto. In case you want to donate me useful things or
+cash, you'll have to contact me for arrangements.
 
 ## Previous addresses
 
 There were non yet, bah.
+
+[lp]: https://liberapay.com/caryoscelus/
