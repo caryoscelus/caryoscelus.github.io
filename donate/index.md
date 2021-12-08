@@ -7,7 +7,10 @@ If you are sure you want to donate, here's the current bitcoin address:
 
 [1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy](bitcoin:1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy)
 
-Please make sure you're using SSL or 0net so that address isn't spoofed.
+(Please make sure you're using SSL or 0net so that address isn't spoofed.)
+
+Alternatively, i have [liberapay](https://liberapay.com/caryoscelus/) account
+set up as well.
 
 If you want more info, keep reading.
 
@@ -25,9 +28,12 @@ If you can spare the time, i would ask you to read them before donating.
 
 I'll be changing address(es) regularly (reusing one address is considered
 harmful), but i'll be listing old ones on this page (and you can check git
-history, if you want to be more sure) so if you want, you can try to count what
+history, if you want to be extra sure) so if you want, you can try to count what
 others have donated publicly (i'm saying "try" because if you care about fiat,
 you'll have to account for crypto price volatility).
+
+Now that i have liberapay account, your calculations should also include that
+(if you even trust them, :paranoia_smiley:)
 
 ## More privacy
 
