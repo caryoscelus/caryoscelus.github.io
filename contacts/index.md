@@ -11,17 +11,20 @@ mail
 
 `caryoscelus ^_^ gmx.com`
 
+matrix / (riot/element/etc)
+---------------------------
+
+`@ caryoscelus : matrix.org`
+
 xmpp
 ----
 
-`caryoscelus ^_^ jabber.org`
+<del>`caryoscelus ^_^ jabber.org`
 
-OTR fingerprint: `FC9F9F22 EB0CA53A 7359C154 258F68AB BF3196F5`
+OTR fingerprint: `FC9F9F22 EB0CA53A 7359C154 258F68AB BF3196F5`</del>
 
-matrix / riot
--------------
-
-`@ caryoscelus : matrix.org`
+(not using xmpp/jabber actively, but if that's your preferred way, i'm willing
+to indulge you connecting back there)
 
 tox
 ---
@@ -33,7 +36,9 @@ tox
 irc
 ---
 
-Registered as caryoscelus at freenode.net and afternet.org.
+<del>Registered as caryoscelus at freenode.net and afternet.org.</del>
+
+(after freenode disaster i didn't have time to migrate to its replacement yet)
 
 zeronet
 -------
@@ -55,7 +60,8 @@ misc
 ----
 
 - [peertube @ tchncs.de](https://tube.tchncs.de/accounts/caryoscelus)
-- [bandcamp](https://caryoscelus.bandcamp.com)
+- [badcamp](https://caryoscelus.bandcamp.com)
+- [liberapay](https://liberapay.com/caryoscelus/)
 
 TODO: add more sites
 
@@ -68,3 +74,6 @@ course.
 
 Found someone with my nick who seems to be not me? Please contact me in one of
 the ways mentioned here.
+
+If you want to meet me personally, ask around via any of secure channels and we
+can discuss that.
