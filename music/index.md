@@ -11,6 +11,10 @@ of it is also available on [bandcamp][bandcamp] and here via embed:
 [0music]: http://127.0.0.1:43110/1FiHm91tcDdjkiGkHZH2xoMc7Qmzrh8sv3/
 [bandcamp]: https://caryoscelus.bandcamp.com
 
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3883717333/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/nowhere-hills">nowhere hills</a></iframe>
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=84927611/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/temporal-monument-pt-0">temporal monument pt 0 by distinct lack of poetry</a></iframe>
+
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2141269165/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/marginal-notes">marginal notes by that kind of noise</a></iframe>
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=405343040/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/scapes">&#39;scapes by that kind of noise</a></iframe>
@@ -18,6 +22,10 @@ of it is also available on [bandcamp][bandcamp] and here via embed:
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2330821257/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/awaiting">awaiting by that kind of noise</a></iframe>
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=107060692/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/amber-piano">amber piano by caryoscelus</a></iframe>
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2227871402/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/nzjz">nzjz by that kind of noise</a></iframe>
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3598978309/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/steel-vs-aluminium">steel vs aluminium by that kind of noise</a></iframe>
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2954209452/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/nice-place">nice place by that kind of noise</a></iframe>
 
