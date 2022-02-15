@@ -10,7 +10,7 @@ Jamendo. Back then it wasn't even a site for me: just a tab in the Amarok's
 internet section. Then it became a symbol of free, open culture. For this reason
 releasing music on Jamendo was a natural thing for me to do, despite all the
 hassle with their uncomfortable site, my dislike of centralized services, and
-the growing amount of sings that they do not in fact stand for creative commons
+the growing amount of signs that they do not in fact stand for creative commons
 or open culture in general.
 
 <cut/>
