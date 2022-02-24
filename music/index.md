@@ -11,6 +11,10 @@ of it is also available on [bandcamp][bandcamp] and here via embed:
 [0music]: http://127.0.0.1:43110/1FiHm91tcDdjkiGkHZH2xoMc7Qmzrh8sv3/
 [bandcamp]: https://caryoscelus.bandcamp.com
 
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1227230777/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/201020">creative comments</a></iframe>
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1666981499/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/201020">nois tar</a></iframe>
+
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2875120642/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/201020">201020</a></iframe>
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4048863805/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/layers-of-misperception">layers of misperception</a></iframe>
