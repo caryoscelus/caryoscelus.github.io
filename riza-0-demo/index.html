@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Hello World</title>
+    <script src="js/lib/jquery-3.6.0.min.js"></script>
+    <script src="js/lib/peerjs-1.3.1.min.js"></script>
+    <script src="js/lib/dexie-3.2.1.min.js"></script>
+    <script src="js/interface.js"></script>
+    <script src="require.js"></script>
+    <script>requirejs(['jAgda.interface'], function(interface){ window.onload = interface.onload;})</script>
+  </head>
+  <body id="body">
+    <button id="connectionsButton">open connections</button>
+    <div id="connections">
+      copy connection id &amp; send it to your friends
+      <div id="connectionList"></div>
+    </div>
+    <button id="peersButton">peers</button>
+    <div id="peers">
+      peer list go here
+      <div id="peerList"></div>
+    </div>
+    <button id="logButton">log</button>
+    <div id="log">
+      connection log goes here
+    </div>
+    <button id="dbButton">db</button>
+    <div id="db">
+      db goes here
+    </div>
+    <input id="remotePeer" type="text"/>
+    <button id="connectToPeer">connect</button>
+    <input id="editUrl" type="text"/>
+    <button id="update">load</button>
+    <button id="subscribe">subscribe</button>
+    <textarea id="editText"></textarea>
+    <button id="editDone">update</button>
+    <button id="push">push</button>
+  </body>
+</html>
