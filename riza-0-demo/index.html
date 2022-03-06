@@ -1,14 +1,29 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World</title>
+    <title>caryoscelus microblog</title>
+    <link rel="stylesheet" href="style.css"/>
     <script src="js/lib/jquery-3.6.0.min.js"></script>
     <script src="js/lib/peerjs-1.3.1.min.js"></script>
     <script src="js/lib/dexie-3.2.1.min.js"></script>
+    <script src="js/lib/dexie-observable-3.0.0-beta.11.min.js"></script>
     <script src="js/interface.js"></script>
     <script src="require.js"></script>
     <script>requirejs(['jAgda.interface'], function(interface){ window.onload = interface.onload;})</script>
   </head>
   <body id="body">
+    <div id="header">
+      <h1 class="logo">&gt; riza-0-demo</h1>
+      <h2 class="sublogo">-this page loads post feed from its peers-</h2>
+    </div>
+    <div id="container">
+      <div class="empty_message">...no messages loaded...</div>
+    </div>
+
+    <button id="zeronetInit" class="button-small">[0]</button>
+    <button id="underhoodButton" class="button-small">&gt;&gt;</button>
+    
+    <div id="underhood" style="display: none;">
     <button id="connectionsButton">open connections</button>
     <div id="connections">
       copy connection id &amp; send it to your friends
@@ -35,5 +50,6 @@
     <textarea id="editText"></textarea>
     <button id="editDone">update</button>
     <button id="push">push</button>
+    </div>
   </body>
 </html>

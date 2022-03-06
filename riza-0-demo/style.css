@@ -1,0 +1,54 @@
+body {
+    background: #252525;
+    color: #EEE;
+}
+
+#container {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.post_container {
+    margin: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #00000088;
+    padding: 5px;
+    background: #111;
+}
+
+.post_date {
+    color: #CCC;
+    font-size: 80%;
+}
+
+.post_post {
+    margin: 5px;
+}
+
+#header {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    font-family: "GNUTypewriter";
+    margin-bottom: 5px;
+}
+
+.sublogo {
+    margin: 5px;
+    padding-left: 40px;
+    font-size: 12pt;
+    font-family: "Almendra";
+}
+
+.button-small {
+    background-color: #555;
+    color: #EEE;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
