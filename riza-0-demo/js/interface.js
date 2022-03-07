@@ -14,6 +14,7 @@ function broadcastMessage(msg) {
   for (peer of window.peers) {
     if (peer.connection) {
       log('pushing through ' + peer.id);
+      log(msg);
       peer.connection.send(msg);
     }
   }
@@ -41,6 +42,7 @@ function subSub(p) {
   for (url of window.subscribed) {
     log(url);
     log(p.connection);
+    
     p.connection.send({'op' : 'subscribe', 'url' : url});
   }
 }
@@ -73,7 +75,8 @@ function receiveData(db, peer) {
 	db.zero.put({'url':data.url, 'timestamp':data.timestamp, 'data':data.data});
 	log('updated');
       } else {
-	log(c, data.timestamp);
+	log(c);
+	log(data.timestamp);
 	log('our version is more up to date');
       }
     } else if (data.op == 'subscribe') {
@@ -82,6 +85,14 @@ function receiveData(db, peer) {
 	log('the peer is already subscribed');
       } else {
 	peer.subscribed.push(data.url);
+	var c = await db.zero.get(data.url);
+	if (c) {
+	  log(c);
+	  peer.connection.send({'op':'update', 'url':c.url, 'timestamp':c.timestamp, 'data':c.data});
+	  log('responded');
+	} else {
+	  log('not found');
+	}
       }
     } else if (data.op == 'receive') {
       log('>> receive ' + data.url + " by "+peer.id);
@@ -120,8 +131,10 @@ function connectToPeer(other_pid) {
     conn = p.connect(other_pid);
     p.connection = conn;
     conn.on('data', receiveData(db, p));
-    subscribeToTrackers(p);
-    subSub(p);
+    conn.on('open', () => {
+      subscribeToTrackers(p);
+      subSub(p);
+    });
   }})(peer));
   // peer.on('connection', (function(p) { return conn => {
     // log('#connectToPeer -> connection');
@@ -134,7 +147,11 @@ function connectToPeer(other_pid) {
 
 async function trackersRemoveOpen(pid) {
   for (track of window.trackersInside) {
-    var opC = (await window.db.zero.get(track)).data || '';
+    var tr = await window.db.zero.get(track);
+    if (!tr) {
+      continue;
+    }
+    var opC = tr.data || '';
     log(opC);
     var r = opC.split('\n');
     let pos = r.indexOf(pid);
@@ -222,6 +239,8 @@ function makePostNode(obj) {
 }
 
 async function updateMe(data) {
+  log('updateMe');
+  log(data);
   var json = JSON.parse(data);
   var psts = json.post;
 
@@ -243,30 +262,40 @@ async function updateUi(url, data) {
   }
 }
 
+async function zeroUpdated(url, oldobj, obj) {
+  log('modified');
+  await updateUi(url, obj.data);
+  if (url == window.mainUrl) {
+    await updateMe(obj.data);
+  }
+  var mod = false;
+  var findata = obj.data;
+  if (window.trackersInside.includes(url)) {
+    [findata, mod] = makeMoreConnections(oldobj.data, obj.data);
+    // addLocalPeers();
+  }
+  var ts = obj.timestamp;
+  if (mod) {
+    ts = Date.now();
+  }
+  broadcastMessageToSubscribed(url, {'op':'update', 'url':url, 'timestamp':ts, 'data':findata});
+}
+
 async function zeroChanged(change) {
+  log('~~ zeroChanged ~~');
   log(change);
   if (change.table == 'zero') {
     log('zero');
     if (change.type == RECORD_CREATED) {
       log('created');
+      var url = change.obj.url;
+      var oldobj = {'url':url, 'timestamp':0, 'data':''};
+      await zeroUpdated(url, oldobj, change.obj);
     } else if (change.type == RECORD_UPDATED) {
-      log('updated');
+      log('>> updated');
       var url = change.obj.url;
       if (change.oldObj.data != change.obj.data) {
-	log('modified');
-	await updateUi(url, change.obj.data);
-	await updateMe(change.oldObj.data);
-	var mod = false;
-	var findata = change.obj.data;
-	if (window.trackersInside.includes(url)) {
-	  [findata, mod] = makeMoreConnections(obj.data, modifications.data);
-	  addLocalPeers();
-	}
-	var ts = change.obj.timestamp;
-	if (mod) {
-	  ts = Date.now();
-	}
-	broadcastMessageToSubscribed(url, {'op':'update', 'url':url, 'timestamp':ts, 'data':findata});
+	await zeroUpdated(url, change.oldObj, change.obj);
       }
     } else if (change.type == RECORD_DELETED) {
       log('deleted');
@@ -286,34 +315,6 @@ async function zeroChanged(change) {
   } else {
     log('unknown change~~');
     log(change);
-  }
-}
-
-async function zeroUpdated(modifications, primKey, obj, transaction) {
-  log('zero updating')
-  // log(primKey);
-  // log(obj);
-  // log(transaction);
-  var url = obj.url;
-  var current_val = await window.db.zero.get(url);
-  log("current value: " + current_val.data);
-  log("new value " + modifications.data)
-  
-  if (modifications.data && modifications.data != obj.data) {
-    log('MODIFIED');
-
-    await updateUi(obj.url, modifications.data);
-    var mod = false;
-    var findata = modifications.data;
-    if (window.trackersInside.includes(obj.url)) {
-      [findata, mod] = makeMoreConnections(obj.data, modifications.data);
-      addLocalPeers();
-    }
-    var ts = modifications.timestamp;
-    if (mod) {
-      ts = Date.now();
-    }
-    broadcastMessageToSubscribed(url, {'op':'update', 'url':url, 'timestamp':ts, 'data':findata});
   }
 }
 
@@ -413,7 +414,7 @@ function rawjsInitInterface() {
 
   window.peers = [];
 
-  var NPEER = 2;
+  var NPEER = 16;
 
   var connsDom = $('#connectionList')[0];
 
@@ -486,8 +487,9 @@ function setupUi() {
     var url = $('#editUrl').val();
     var data = $('#editText').val();
     log("push " + url);
-    db.zero.put({"url":url, "timestamp":Date.now(), "data":data});
-    broadcastMessage({'op' : 'update', 'url' : url, 'data' : data});
+    var ts = Date.now();
+    db.zero.put({"url":url, "timestamp":ts, "data":data});
+    broadcastMessage({'op' : 'update', 'url' : url, 'timestamp':ts, 'data' : data});
   });
   
   for (n of ['connections', 'peers', 'log', 'db', 'underhood']) {
@@ -510,14 +512,21 @@ function setupUi() {
   $('#zeroInit').click(init0net);
 
   subscribeUrl(window.mainUrl);
+
+  // window.db.zero.get(window.mainUrl).
 }
 
-function loadPosts() {
+async function loadPosts() {
   $('#container').text('');
-  window.db.caryoscelus0me.toCollection().each(pst => {
-    log('<!>==</i>');
-    log(pst);
-    makePostNode(pst);
-    log('croot');
+  window.db.zero.get(window.mainUrl).then(res => {
+    if (res) {
+      updateMe(res.data);
+    }
+    window.db.caryoscelus0me.toCollection().each(pst => {
+      log('<!>==</i>');
+      log(pst);
+      makePostNode(pst);
+      log('croot');
+    });
   });
 }
