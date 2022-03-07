@@ -3,11 +3,11 @@ const RECORD_UPDATED = 2;
 const RECORD_DELETED = 3;
 
 function log(msg) {
-  console.log(msg);
-  dv = document.createElement('div');
-  txt = document.createTextNode(msg);
-  dv.appendChild(txt);
-  $('#log')[0].appendChild(dv);
+  // console.log(msg);
+  // dv = document.createElement('div');
+  // txt = document.createTextNode(msg);
+  // dv.appendChild(txt);
+  // $('#log')[0].appendChild(dv);
 }
 
 function broadcastMessage(msg) {
@@ -218,9 +218,10 @@ function makePostNode(obj) {
   datD.setAttribute('id', 'post_'+obj.post_id+'_date');
   datD.setAttribute('class', 'post_date');
   log('wtf 2!?#$');
-  var pstT = document.createTextNode(obj.post);
+  // var pstT = document.createTextNode(obj.post);
   var pstD = document.createElement('div');
-  pstD.appendChild(pstT);
+  // pstD.appendChild(pstT);
+  pstD.innerHTML = marked.marked(obj.post);
   pstD.setAttribute('id', 'post_'+obj.post_id+'_post');
   var pst = document.createElement('div');
   pstD.setAttribute('class', 'post_post');
@@ -305,7 +306,9 @@ async function zeroChanged(change) {
   } else if (change.table == 'caryoscelus0me') {
     log('change me');
     if (change.type == RECORD_CREATED) {
-      new Notification(change.obj.post);
+      if (window.notificationEnabled) {
+	new Notification(change.obj.post);
+      }
       makePostNode(change.obj);
     } else if (change.type == RECORD_UPDATED) {
       window.postNodes[change.obj.post_id].update(change.obj);
@@ -372,6 +375,19 @@ function znWriteAndSign(fname, data) {
   });
 }
 
+function loadFrom0net() {
+  log('load0net');
+  var url = "http://127.0.0.1:43110"+window.mainUrl;
+  $.get(url, (data, status) => {
+    log(status);
+    log(data);
+    if (typeof data != 'string') {
+      data = JSON.stringify(data);
+    }
+    db.zero.put({'url':window.mainUrl, 'timestamp':Date.now(), 'data':data});
+  });
+}
+
 function init0net() {
   window.zn_next_message_id = 1;
   window.zn_wrapper_nonce = document.location.href.replace(/.*wrapper_nonce=([A-Za-z0-9]+).*/, "$1");
@@ -382,6 +398,7 @@ function init0net() {
 }
 
 function rawjsInitInterface() {
+  window.notificationEnabled = false;
   window.postNodes = {};
   
   window.mainUrl = "/1White24UrrwQrD86o6Vrc1apgZ1x1o51/data/users/13oRBYqNeUr6Tvgt4KkAT9FT4XRiKFBjnE/data.json";
@@ -414,7 +431,7 @@ function rawjsInitInterface() {
 
   window.peers = [];
 
-  var NPEER = 16;
+  var NPEER = 64;
 
   var connsDom = $('#connectionList')[0];
 
@@ -509,7 +526,8 @@ function setupUi() {
     connectToPeer(other_pid);
   });
 
-  $('#zeroInit').click(init0net);
+  // $('#zeroInit').click(init0net);
+  $('#zeroInit').click(loadFrom0net);
 
   subscribeUrl(window.mainUrl);
 
@@ -529,4 +547,5 @@ async function loadPosts() {
       log('croot');
     });
   });
+  window.notificationEnabled = true;
 }

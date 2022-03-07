@@ -27,6 +27,13 @@ body {
     margin: 5px;
 }
 
+.post_post a {
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 2px;
+    background: #333;
+}
+
 #header {
     margin-left: 20px;
     margin-bottom: 5px;
