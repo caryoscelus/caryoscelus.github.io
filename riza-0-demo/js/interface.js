@@ -547,5 +547,6 @@ async function loadPosts() {
       log('croot');
     });
   });
+  Notification.requestPermission();
   window.notificationEnabled = true;
 }
