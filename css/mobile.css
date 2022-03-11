@@ -2,6 +2,10 @@
   width: 99%;
 }
 
+.title {
+  font-size: 150%;
+}
+
 .left_float {
   pointer-events: none;
 }
@@ -18,6 +22,7 @@
   display: inline-block;
   margin-left: 0;
   text-align: right;
+  font-size: 100%;
 }
 
 .quote0 {
