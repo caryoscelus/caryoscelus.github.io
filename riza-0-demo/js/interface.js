@@ -3,7 +3,7 @@ const RECORD_UPDATED = 2;
 const RECORD_DELETED = 3;
 
 function log(msg) {
-  // console.log(msg);
+  console.log(msg);
   // dv = document.createElement('div');
   // txt = document.createTextNode(msg);
   // dv.appendChild(txt);
@@ -145,6 +145,25 @@ function connectToPeer(other_pid) {
   // }})(peer));
 }
 
+async function trackersAddPeer(pid) {
+  for (track of window.trackersInside) {
+    var tr = await window.db.zero.get(track);
+    if (!tr) {
+      window.db.zero.put({'url':track, 'timestamp':Date.now(), 'data':pid});
+      continue;
+    }
+    var opC = tr.data || '';
+    log(opC);
+    var r = opC.split('\n');
+    let pos = r.indexOf(pid);
+    if (pos < 0) {
+      r.push(pid);
+    }
+    let res = r.join('\n');
+    window.db.zero.put({'url':track, 'timestamp':Date.now(), 'data':res});
+  }
+}
+
 async function trackersRemoveOpen(pid) {
   for (track of window.trackersInside) {
     var tr = await window.db.zero.get(track);
@@ -182,7 +201,7 @@ function makeMoreConnections(oldT, newT) {
   if (count < 16) {
     var elig = [];
     for (p of n) {
-      if (! o.includes(p) && ! e.includes(p)) {
+      if (! o.includes(p) && ! e.includes(p) && p) {
 	elig.push(p);
       }
     }
@@ -446,6 +465,7 @@ function rawjsInitInterface() {
       dv.appendChild(txt);
       connsDom.appendChild(dv);
       p.dom = dv;
+      trackersAddPeer(id);
     }})(peer));
     peer.on('connection', (function(p) { return async conn => {
       log(conn);
@@ -460,6 +480,11 @@ function rawjsInitInterface() {
   };
 
   for (tracker of window.trackersInside) {
+    // db.zero.get(tracker).then(x => {
+      // if (x === undefined) {
+	// db.zero.put("");
+      // }
+    // });
     subscribeUrl(tracker);
   }
 
