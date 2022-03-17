@@ -3,13 +3,13 @@ layout: default
 title: "donate < caryoscelus"
 ---
 
-If you are sure you want to donate, here's the current bitcoin address:
+If you are sure you want to donate, here's
 
-[1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy](bitcoin:1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy)
+- the current bitcoin address: [1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy](bitcoin:1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy)
+- [liberapay][lp]
+- [ko-fi][kofi]
 
 (Please make sure you're using SSL or 0net so that address isn't spoofed.)
-
-Alternatively, i have [liberapay][lp] account set up as well.
 
 If you want more info, keep reading.
 
@@ -58,4 +58,5 @@ cash, you'll have to contact me for arrangements.
 
 There were non yet, bah.
 
-[lp]: https://liberapay.com/caryoscelus/
+[lp]: https://liberapay.com/caryoscelus
+[kofi]: https://ko-fi.com/caryoscelus
