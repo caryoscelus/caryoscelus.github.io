@@ -13,6 +13,8 @@ of it is also available on [bandcamp][bandcamp] and here via embed:
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1227230777/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/201020">creative comments</a></iframe>
 
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2443674013/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/orkestrovaja-sotsialnaja-jama">orkestrovaja | sotsialnaja | jama by oui themselves</a></iframe>
+
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1666981499/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/201020">nois tar</a></iframe>
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2875120642/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/201020">201020</a></iframe>
