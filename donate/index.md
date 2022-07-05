@@ -6,6 +6,7 @@ title: "donate < caryoscelus"
 If you are sure you want to donate, here's
 
 - the current bitcoin address: [1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy](bitcoin:1NoaWahAZJ38mkzJRNHWYnt7U19MkXtfUy)
+- monero (xmr) address: 8AjiKEJXc55TXeFSq8ajFqGcuCH9vm9ov6xHYaLchap41PQ9FFr1zkaBKunPpcayUW2uJ2nFN8XFQZbnn5cSrUww4Eveitv
 - [liberapay][lp]
 - [ko-fi][kofi]
 
