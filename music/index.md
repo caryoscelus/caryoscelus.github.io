@@ -13,6 +13,8 @@ of it is also available on [bandcamp][bandcamp] and here via embed:
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1227230777/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/creative-comments">creative comments</a></iframe>
 
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2454857759/size=large/bgcol=282828/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/four-views-of-a-quiet-street-in-the-dark">four views of a quiet street in the dark by that kind of noise</a></iframe>
+
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3817711630/size=large/bgcol=282828/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/spring-accidental-concerto-28c">spring accidental concerto 28C by mental space scour dazzle</a></iframe>
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2154520748/size=large/bgcol=282828/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://caryoscelus.bandcamp.com/album/landscape-of-intricate-ramblings">landscape of intricate ramblings by that kind of noise</a></iframe>
