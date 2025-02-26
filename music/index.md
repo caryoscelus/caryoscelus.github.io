@@ -5,8 +5,9 @@ title: "music &lt; caryoscelus"
 
 # Music
 
-The entire collection of my released music can be found on [0net][0music], most
-of it is also available on [bandcamp][bandcamp] and here via embed:
+Almost entire (sic!) collection of my released music can be found on
+[bandcamp][bandcamp] (some also on [0net][0music]) and here via embed
+(embed automation not implemented, bah):
 
 [0music]: http://127.0.0.1:43110/1FiHm91tcDdjkiGkHZH2xoMc7Qmzrh8sv3/
 [bandcamp]: https://caryoscelus.bandcamp.com
