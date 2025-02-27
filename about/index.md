@@ -7,7 +7,7 @@ title: "about &lt; caryoscelus"
 -----
 
 so, you wonder what is this all about and who is this *caryoscelus*
-person? Or/if/whether person at all?
+person? or/if/whether person at all?
 
 not so quickly! i'm going to write a life story or explain structure
 of the universe in lame (sic!) terms here.

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "music &lt; caryoscelus"
+title: "art &lt; caryoscelus"
 ---
 
 [under construction]
+
+[total art](./total.art.html)
