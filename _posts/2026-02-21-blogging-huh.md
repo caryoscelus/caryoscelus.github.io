@@ -29,7 +29,7 @@ more than one sitting are severely diminishing at this point.
 So I'm writing this self-referential post instead. But then again (`*`), isn't
 self-reference the only real building block of consciousness and reality? So it
 must be ok to indulge in writing about writing. Everyone is unique. There is
-only one though, really. It only makes sense to make your own rendition of that
+only one thought, really. It only makes sense to make your own rendition of that
 thought that express the thought in a different way. Every step matters and you
 never know your place in the world (i.e. "*how valuable do you think your
 thoughts are?!*" cliche) until you interact with it. Also poking world be
